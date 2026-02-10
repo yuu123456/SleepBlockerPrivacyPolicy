@@ -3,55 +3,39 @@ layout: default
 title: SleepBlocker Privacy Policy
 ---
 
-# SleepBlocker Privacy Policy
+# Privacy Policy
 
-## 1. Introduction
+**Last Updated: February 10, 2026**
 
-This Privacy Policy explains how personal information is handled in the SleepBlocker app (hereinafter referred to as "the App").
+## 1. Information We Collect
+This app (SleepBlocker) stores only the following information locally on the user's Mac:
 
-## 2. Information We Collect
+- Sleep block settings (selected mode, auto-start, auto-stop timer, last start date/time)
+- Operation logs (start/stop records, timestamps, messages)
 
-The App may collect the following information:
+We do not collect personal information such as name, email address, contact information, or usage analytics.
 
-- Information about app usage
-- Device information (OS, version, etc.)
-- Crash reports and error logs
+## 2. Purpose of Use
+The above information is used solely for the following purposes:
 
-## 3. Purpose of Use
+- Providing sleep block functionality
+- Saving and restoring settings
+- Displaying operation history
 
-The information collected is used for the following purposes:
+## 3. Storage Location and Sharing
+- Data is stored in the app's dedicated area on the Mac
+- No external transmission, cloud synchronization, or third-party sharing occurs
 
-- Improving app functionality
-- Bug fixes
-- User support
-- Service improvements
+Retention periods are as follows:
 
-## 4. Information Sharing
+- Settings data: Until app uninstallation
+- Operation logs: Maximum 50 entries (oldest entries are deleted when exceeded)
 
-The App does not share collected information with third parties, except when required by law.
+## 4. External Services
+This app uses the macOS standard `caffeinate` command. This feature does not collect or transmit user data.
 
-## 5. Data Storage
+## 5. Contact
+For inquiries regarding this policy, please use the Issues section of the GitHub repository.
 
-Collected data is stored only for the necessary period and is properly deleted thereafter.
-
-## 6. Security
-
-We implement appropriate security measures to protect your information.
-
-## 7. Your Rights
-
-You have the right to request access to, correction of, or deletion of your personal information.
-
-## 8. Changes to Privacy Policy
-
-This Privacy Policy may be updated as necessary. In the event of significant changes, we will notify you through the app or website.
-
-## 9. Contact Us
-
-If you have any questions or concerns about this Privacy Policy, please contact us at:
-
-Contact: [Email address or contact method]
-
----
-
-Last updated: February 10, 2026
+## 6. Changes
+We may update this policy as necessary. The latest content and last updated date can be confirmed in this document.
