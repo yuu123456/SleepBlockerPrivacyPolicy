@@ -12,15 +12,25 @@ https://yuu123456.github.io/SleepBlockerPrivacyPolicy/
 - `index.md` - プライバシーポリシー（日本語版）
 - `privacy-policy-en.md` - プライバシーポリシー（英語版）
 - `_config.yml` - Jekyll設定ファイル
+- `.github/workflows/deploy.yml` - GitHub Actions自動デプロイ設定
 
-## GitHub Pagesの設定方法
+## 自動デプロイ
+
+mainブランチへの変更が自動的にGitHub Pagesにデプロイされます。GitHub Actionsワークフローが以下を実行します：
+
+1. リポジトリのコードをチェックアウト
+2. Jekyllでサイトをビルド
+3. GitHub Pagesに自動デプロイ
+
+## GitHub Pagesの初期設定
+
+初回のみ、以下の設定が必要です：
 
 1. GitHubリポジトリの Settings > Pages に移動
-2. Source を "Deploy from a branch" に設定
-3. Branch を "main"（またはメインブランチ）に設定し、フォルダを "/ (root)" に設定
-4. Save をクリック
+2. Source を "GitHub Actions" に設定
+3. Save をクリック
 
-数分後、プライバシーポリシーが公開されます。
+以降、mainブランチへのプッシュやマージで自動的にデプロイされます。
 
 ## プライバシーポリシーの更新
 
